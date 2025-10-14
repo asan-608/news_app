@@ -161,8 +161,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "news@file:features/news": {
-      "storePath": "features/news",
+    "video@file:features/video": {
+      "storePath": "features/video",
       "dependencies": {
         "utils": "commons/utils",
         "uicomponents": "commons/uicomponents"
@@ -172,8 +172,8 @@
       "dynamic": false,
       "maskedByOverrideDependencyMap": false
     },
-    "video@file:features/video": {
-      "storePath": "features/video",
+    "news@file:features/news": {
+      "storePath": "features/news",
       "dependencies": {
         "utils": "commons/utils",
         "uicomponents": "commons/uicomponents"
