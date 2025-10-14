@@ -2059,7 +2059,7 @@
       ]
     },
     "G:\\HarmonyOsProjects\\06_LayerArchitectureDesign\\QS06_Complete\\features\\login\\src\\main\\ets\\pages\\RegisterPage.ets": {
-      "mtimeMs": 1760366378056.8157,
+      "mtimeMs": 1760433889463.5261,
       "children": [
         "G:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts",
         "G:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.router.d.ts",
@@ -2188,7 +2188,7 @@
       "error": false
     },
     "G:\\HarmonyOsProjects\\06_LayerArchitectureDesign\\QS06_Complete\\features\\mine\\src\\main\\ets\\view\\Mine.ets": {
-      "mtimeMs": 1760366108924.2356,
+      "mtimeMs": 1760435173847.7893,
       "children": [
         "G:\\HarmonyOsProjects\\06_LayerArchitectureDesign\\QS06_Complete\\features\\login\\Index.ets",
         "G:\\DevEco Studio\\sdk\\default\\openharmony\\ets\\api\\@ohos.promptAction.d.ts"

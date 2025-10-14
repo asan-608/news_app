@@ -100,9 +100,9 @@ export struct RegisterPage {
       // 返回按钮
       Row() {
         Button() {
-          Image($r('app.media.ic_back'))
-            .width('24vp')
-            .height('24vp')
+          Text('←')
+            .fontSize('24fp')
+            .fontColor('#333333')
         }
         .backgroundColor(Color.Transparent)
         .onClick(() => {
