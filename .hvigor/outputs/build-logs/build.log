@@ -11930,3 +11930,779 @@ at C:\Users\12461\Desktop\news_app\products\default\src\main\resources\base\medi
 [2025-10-16T13:09:33.242] [DEBUG] debug-file - session manager: send message to worker process.
 [2025-10-16T13:09:33.242] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
 [2025-10-16T13:09:33.242] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-10-16T13:26:14.192] [DEBUG] debug-file - session manager: set active socket. socketId=FlQHeeQNUe2s7hD8AAAF
+[2025-10-16T13:26:14.214] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-10-16T13:26:14.249] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-10-16T13:26:14.261] [DEBUG] debug-file - Cache service initialization finished in 13 ms 
+[2025-10-16T13:26:14.270] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\hvigorfile.ts
+[2025-10-16T13:26:14.282] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.283] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.296] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-10-16T13:26:14.296] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-10-16T13:26:14.296] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-10-16T13:26:14.297] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-10-16T13:26:14.298] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true
+} in this build.
+[2025-10-16T13:26:14.300] [DEBUG] debug-file - not found resModel json file in : C:\Users\12461\Desktop\news_app\products\default\src\ohosTest\module.json5
+[2025-10-16T13:26:14.303] [DEBUG] debug-file - not found resModel json file in : C:\Users\12461\Desktop\news_app\features\news\src\ohosTest\module.json5
+[2025-10-16T13:26:14.305] [DEBUG] debug-file - not found resModel json file in : C:\Users\12461\Desktop\news_app\features\video\src\ohosTest\module.json5
+[2025-10-16T13:26:14.307] [DEBUG] debug-file - not found resModel json file in : C:\Users\12461\Desktop\news_app\features\quickstart\src\ohosTest\module.json5
+[2025-10-16T13:26:14.316] [DEBUG] debug-file - No signingConfig found, initRemoteHspCache failed.
+[2025-10-16T13:26:14.321] [DEBUG] debug-file - Start recording SDK configuration permission data.
+[2025-10-16T13:26:14.348] [DEBUG] debug-file - Sdk init in 32 ms 
+[2025-10-16T13:26:14.362] [DEBUG] debug-file - Project task initialization takes 14 ms 
+[2025-10-16T13:26:14.362] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.363] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\hvigorfile.ts
+[2025-10-16T13:26:14.363] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\hvigorfile.ts
+[2025-10-16T13:26:14.367] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\products\default\hvigorfile.ts
+[2025-10-16T13:26:14.371] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.371] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=default, buildMode=debug
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - Module 'default' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - Module 'default' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - End initialize module-target build option map, moduleName=default
+[2025-10-16T13:26:14.376] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=default, buildMode=release
+[2025-10-16T13:26:14.377] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.377] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.377] [DEBUG] debug-file - Module 'default' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": true,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      }
+    }
+  }
+}
+[2025-10-16T13:26:14.377] [DEBUG] debug-file - Module 'default' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.377] [DEBUG] debug-file - End initialize module-target build option map, moduleName=default
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=default, buildMode=debug
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - Module 'default' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - Module 'default' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - End initialize module-target build option map, moduleName=default
+[2025-10-16T13:26:14.378] [DEBUG] debug-file - Module 'default' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.381] [DEBUG] debug-file - Module default task initialization takes 2 ms 
+[2025-10-16T13:26:14.382] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.382] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\products\default\hvigorfile.ts
+[2025-10-16T13:26:14.382] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\products\default\hvigorfile.ts
+[2025-10-16T13:26:14.387] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\features\news\hvigorfile.ts
+[2025-10-16T13:26:14.389] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.389] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=news, buildMode=debug
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Module 'news' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Module 'news' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - End initialize module-target build option map, moduleName=news
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=news, buildMode=release
+[2025-10-16T13:26:14.395] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Module 'news' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": true,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Module 'news' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - End initialize module-target build option map, moduleName=news
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=news, buildMode=debug
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Module 'news' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Module 'news' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - End initialize module-target build option map, moduleName=news
+[2025-10-16T13:26:14.396] [DEBUG] debug-file - Module 'news' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.399] [DEBUG] debug-file - Module news task initialization takes 1 ms 
+[2025-10-16T13:26:14.399] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.399] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\features\news\hvigorfile.ts
+[2025-10-16T13:26:14.399] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\features\news\hvigorfile.ts
+[2025-10-16T13:26:14.404] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\features\video\hvigorfile.ts
+[2025-10-16T13:26:14.407] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.407] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.412] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=video, buildMode=debug
+[2025-10-16T13:26:14.412] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.412] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.412] [DEBUG] debug-file - Module 'video' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Module 'video' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - End initialize module-target build option map, moduleName=video
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=video, buildMode=release
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Module 'video' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": true,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Module 'video' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - End initialize module-target build option map, moduleName=video
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=video, buildMode=debug
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Module 'video' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Module 'video' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - End initialize module-target build option map, moduleName=video
+[2025-10-16T13:26:14.413] [DEBUG] debug-file - Module 'video' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.415] [DEBUG] debug-file - Module video task initialization takes 1 ms 
+[2025-10-16T13:26:14.415] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.415] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\features\video\hvigorfile.ts
+[2025-10-16T13:26:14.415] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\features\video\hvigorfile.ts
+[2025-10-16T13:26:14.419] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\features\quickstart\hvigorfile.ts
+[2025-10-16T13:26:14.423] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.423] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=quickstart, buildMode=debug
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Module 'quickstart' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Module 'quickstart' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - End initialize module-target build option map, moduleName=quickstart
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=quickstart, buildMode=release
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Module 'quickstart' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": true,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Module 'quickstart' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - End initialize module-target build option map, moduleName=quickstart
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=quickstart, buildMode=debug
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.427] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.428] [DEBUG] debug-file - Module 'quickstart' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.428] [DEBUG] debug-file - Module 'quickstart' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.428] [DEBUG] debug-file - End initialize module-target build option map, moduleName=quickstart
+[2025-10-16T13:26:14.428] [DEBUG] debug-file - Module 'quickstart' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.430] [DEBUG] debug-file - Module quickstart task initialization takes 1 ms 
+[2025-10-16T13:26:14.430] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.430] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\features\quickstart\hvigorfile.ts
+[2025-10-16T13:26:14.430] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\features\quickstart\hvigorfile.ts
+[2025-10-16T13:26:14.435] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\commons\utils\hvigorfile.ts
+[2025-10-16T13:26:14.437] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.437] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.441] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=utils, buildMode=debug
+[2025-10-16T13:26:14.441] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.441] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - End initialize module-target build option map, moduleName=utils
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=utils, buildMode=release
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - End initialize module-target build option map, moduleName=utils
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=utils, buildMode=debug
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - End initialize module-target build option map, moduleName=utils
+[2025-10-16T13:26:14.442] [DEBUG] debug-file - Module 'utils' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.444] [DEBUG] debug-file - Module utils task initialization takes 1 ms 
+[2025-10-16T13:26:14.444] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.444] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\commons\utils\hvigorfile.ts
+[2025-10-16T13:26:14.444] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\commons\utils\hvigorfile.ts
+[2025-10-16T13:26:14.449] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\commons\uicomponents\hvigorfile.ts
+[2025-10-16T13:26:14.451] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.451] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.455] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=uicomponents, buildMode=debug
+[2025-10-16T13:26:14.455] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Module 'uicomponents' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Module 'uicomponents' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - End initialize module-target build option map, moduleName=uicomponents
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=uicomponents, buildMode=release
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Module 'uicomponents' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Module 'uicomponents' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - End initialize module-target build option map, moduleName=uicomponents
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=uicomponents, buildMode=debug
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.456] [DEBUG] debug-file - Module 'uicomponents' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.457] [DEBUG] debug-file - Module 'uicomponents' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.457] [DEBUG] debug-file - End initialize module-target build option map, moduleName=uicomponents
+[2025-10-16T13:26:14.457] [DEBUG] debug-file - Module 'uicomponents' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.458] [DEBUG] debug-file - Module uicomponents task initialization takes 1 ms 
+[2025-10-16T13:26:14.459] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.459] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\commons\uicomponents\hvigorfile.ts
+[2025-10-16T13:26:14.459] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\commons\uicomponents\hvigorfile.ts
+[2025-10-16T13:26:14.462] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\features\mine\hvigorfile.ts
+[2025-10-16T13:26:14.464] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.464] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=mine, buildMode=debug
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Module 'mine' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Module 'mine' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - End initialize module-target build option map, moduleName=mine
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=mine, buildMode=release
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Module 'mine' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - Module 'mine' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.468] [DEBUG] debug-file - End initialize module-target build option map, moduleName=mine
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=mine, buildMode=debug
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - Module 'mine' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - Module 'mine' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - End initialize module-target build option map, moduleName=mine
+[2025-10-16T13:26:14.469] [DEBUG] debug-file - Module 'mine' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.471] [DEBUG] debug-file - Module mine task initialization takes 1 ms 
+[2025-10-16T13:26:14.471] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.471] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\features\mine\hvigorfile.ts
+[2025-10-16T13:26:14.471] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\features\mine\hvigorfile.ts
+[2025-10-16T13:26:14.475] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\features\login\hvigorfile.ts
+[2025-10-16T13:26:14.478] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.478] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.481] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=login, buildMode=debug
+[2025-10-16T13:26:14.481] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.481] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.481] [DEBUG] debug-file - Module 'login' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.481] [DEBUG] debug-file - Module 'login' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - End initialize module-target build option map, moduleName=login
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=login, buildMode=release
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Module 'login' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Module 'login' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - End initialize module-target build option map, moduleName=login
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=login, buildMode=debug
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Module 'login' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Module 'login' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - End initialize module-target build option map, moduleName=login
+[2025-10-16T13:26:14.482] [DEBUG] debug-file - Module 'login' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.483] [DEBUG] debug-file - Module login task initialization takes 1 ms 
+[2025-10-16T13:26:14.484] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.484] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\features\login\hvigorfile.ts
+[2025-10-16T13:26:14.484] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\features\login\hvigorfile.ts
+[2025-10-16T13:26:14.488] [DEBUG] debug-file - hvigorfile, resolving C:\Users\12461\Desktop\news_app\features\follows\hvigorfile.ts
+[2025-10-16T13:26:14.490] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-10-16T13:26:14.490] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=follows, buildMode=debug
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Module 'follows' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Module 'follows' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - End initialize module-target build option map, moduleName=follows
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=follows, buildMode=release
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Module 'follows' target 'default' build option: {
+  "debuggable": false,
+  "copyFrom": "default",
+  "name": "release",
+  "arkOptions": {
+    "obfuscation": {
+      "ruleOptions": {
+        "enable": false,
+        "files": [
+          "./obfuscation-rules.txt"
+        ]
+      },
+      "consumerFiles": [
+        "./consumer-rules.txt"
+      ]
+    }
+  }
+}
+[2025-10-16T13:26:14.493] [DEBUG] debug-file - Module 'follows' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.494] [DEBUG] debug-file - End initialize module-target build option map, moduleName=follows
+[2025-10-16T13:26:14.494] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=follows, buildMode=debug
+[2025-10-16T13:26:14.494] [DEBUG] debug-file - Target 'default' config: {}
+[2025-10-16T13:26:14.494] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-10-16T13:26:14.495] [DEBUG] debug-file - Module 'follows' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+}
+[2025-10-16T13:26:14.495] [DEBUG] debug-file - Module 'follows' target 'ohosTest' build option: {
+  "debuggable": true,
+  "name": "default"
+}
+[2025-10-16T13:26:14.495] [DEBUG] debug-file - End initialize module-target build option map, moduleName=follows
+[2025-10-16T13:26:14.495] [DEBUG] debug-file - Module 'follows' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.496] [DEBUG] debug-file - Module follows task initialization takes 1 ms 
+[2025-10-16T13:26:14.496] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-10-16T13:26:14.496] [DEBUG] debug-file - hvigorfile, no custom plugins were found in C:\Users\12461\Desktop\news_app\features\follows\hvigorfile.ts
+[2025-10-16T13:26:14.496] [DEBUG] debug-file - hvigorfile, resolve finished C:\Users\12461\Desktop\news_app\features\follows\hvigorfile.ts
+[2025-10-16T13:26:14.515] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 19 ms 
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - project has submodules:default,news,video,quickstart,utils,uicomponents,mine,login,follows
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:news no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:video no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:quickstart no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:utils no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:uicomponents no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:mine no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:login no need to execute packageHap
+[2025-10-16T13:26:14.516] [DEBUG] debug-file - module:follows no need to execute packageHap
+[2025-10-16T13:26:14.517] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-10-16T13:26:14.528] [DEBUG] debug-file - load to the disk finished
+[2025-10-16T13:26:14.529] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.530] [DEBUG] debug-file - Module news_app Collected Dependency: 
+[2025-10-16T13:26:14.530] [DEBUG] debug-file - Module news_app's total dependency: 0
+[2025-10-16T13:26:14.531] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.540] [DEBUG] debug-file - Module default Collected Dependency: C:\Users\12461\Desktop\news_app\features\video,C:\Users\12461\Desktop\news_app\features\news,C:\Users\12461\Desktop\news_app\features\quickstart,C:\Users\12461\Desktop\news_app\features\follows,C:\Users\12461\Desktop\news_app\features\mine,C:\Users\12461\Desktop\news_app\features\login,C:\Users\12461\Desktop\news_app\commons\utils,C:\Users\12461\Desktop\news_app\commons\uicomponents
+[2025-10-16T13:26:14.540] [DEBUG] debug-file - Module default's total dependency: 8
+[2025-10-16T13:26:14.542] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.543] [DEBUG] debug-file - Module news Collected Dependency: C:\Users\12461\Desktop\news_app\commons\utils,C:\Users\12461\Desktop\news_app\commons\uicomponents
+[2025-10-16T13:26:14.543] [DEBUG] debug-file - Module news's total dependency: 2
+[2025-10-16T13:26:14.545] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.545] [DEBUG] debug-file - Module video Collected Dependency: C:\Users\12461\Desktop\news_app\commons\utils,C:\Users\12461\Desktop\news_app\commons\uicomponents
+[2025-10-16T13:26:14.545] [DEBUG] debug-file - Module video's total dependency: 2
+[2025-10-16T13:26:14.547] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.548] [DEBUG] debug-file - Module quickstart Collected Dependency: C:\Users\12461\Desktop\news_app\commons\utils,C:\Users\12461\Desktop\news_app\commons\uicomponents
+[2025-10-16T13:26:14.548] [DEBUG] debug-file - Module quickstart's total dependency: 2
+[2025-10-16T13:26:14.550] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.550] [DEBUG] debug-file - Module utils Collected Dependency: 
+[2025-10-16T13:26:14.550] [DEBUG] debug-file - Module utils's total dependency: 0
+[2025-10-16T13:26:14.551] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.552] [DEBUG] debug-file - Module uicomponents Collected Dependency: 
+[2025-10-16T13:26:14.552] [DEBUG] debug-file - Module uicomponents's total dependency: 0
+[2025-10-16T13:26:14.553] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.554] [DEBUG] debug-file - Module mine Collected Dependency: C:\Users\12461\Desktop\news_app\features\login
+[2025-10-16T13:26:14.554] [DEBUG] debug-file - Module mine's total dependency: 1
+[2025-10-16T13:26:14.555] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.556] [DEBUG] debug-file - Module login Collected Dependency: 
+[2025-10-16T13:26:14.556] [DEBUG] debug-file - Module login's total dependency: 0
+[2025-10-16T13:26:14.557] [DEBUG] debug-file - Start to initialize dependency information.
+[2025-10-16T13:26:14.558] [DEBUG] debug-file - Module follows Collected Dependency: 
+[2025-10-16T13:26:14.558] [DEBUG] debug-file - Module follows's total dependency: 0
+[2025-10-16T13:26:14.559] [DEBUG] debug-file - Configuration phase cost:294 ms 
+[2025-10-16T13:26:14.565] [DEBUG] debug-file - Configuration task cost before running: 341 ms 
+[2025-10-16T13:26:14.565] [DEBUG] debug-file - Executing task :default:init
+[2025-10-16T13:26:14.565] [DEBUG] debug-file - default : init cost memory 0.02196502685546875
+[2025-10-16T13:26:14.565] [DEBUG] debug-file - runTaskFromQueue task cost before running: 342 ms 
+[2025-10-16T13:26:14.565] [INFO] debug-file - Finished :default:init... after 1 ms 
+[2025-10-16T13:26:14.565] [DEBUG] debug-file - Executing task :news:init
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - news : init cost memory 0.01168060302734375
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - runTaskFromQueue task cost before running: 342 ms 
+[2025-10-16T13:26:14.566] [INFO] debug-file - Finished :news:init... after 1 ms 
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - Executing task :video:init
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - video : init cost memory 0.01168060302734375
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - runTaskFromQueue task cost before running: 342 ms 
+[2025-10-16T13:26:14.566] [INFO] debug-file - Finished :video:init... after 1 ms 
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - Executing task :quickstart:init
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - quickstart : init cost memory 0.01181793212890625
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - runTaskFromQueue task cost before running: 343 ms 
+[2025-10-16T13:26:14.566] [INFO] debug-file - Finished :quickstart:init... after 1 ms 
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - Executing task :utils:init
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - utils : init cost memory 0.01168060302734375
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - runTaskFromQueue task cost before running: 343 ms 
+[2025-10-16T13:26:14.566] [INFO] debug-file - Finished :utils:init... after 1 ms 
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - Executing task :uicomponents:init
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - uicomponents : init cost memory 0.0118408203125
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - runTaskFromQueue task cost before running: 343 ms 
+[2025-10-16T13:26:14.566] [INFO] debug-file - Finished :uicomponents:init... after 1 ms 
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - Executing task :mine:init
+[2025-10-16T13:26:14.566] [DEBUG] debug-file - mine : init cost memory 0.01168060302734375
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - runTaskFromQueue task cost before running: 343 ms 
+[2025-10-16T13:26:14.567] [INFO] debug-file - Finished :mine:init... after 1 ms 
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - Executing task :login:init
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - login : init cost memory 0.0116119384765625
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - runTaskFromQueue task cost before running: 343 ms 
+[2025-10-16T13:26:14.567] [INFO] debug-file - Finished :login:init... after 1 ms 
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - Executing task :follows:init
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - follows : init cost memory 0.011627197265625
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - runTaskFromQueue task cost before running: 344 ms 
+[2025-10-16T13:26:14.567] [INFO] debug-file - Finished :follows:init... after 1 ms 
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - Executing task ::init
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - news_app : init cost memory 0.01255035400390625
+[2025-10-16T13:26:14.567] [DEBUG] debug-file - runTaskFromQueue task cost before running: 344 ms 
+[2025-10-16T13:26:14.567] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-10-16T13:26:14.580] [DEBUG] debug-file - Module 'default' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.583] [DEBUG] debug-file - Module 'default' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.586] [DEBUG] debug-file - Module 'news' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.588] [DEBUG] debug-file - Module 'news' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.591] [DEBUG] debug-file - Module 'video' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.594] [DEBUG] debug-file - Module 'video' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.596] [DEBUG] debug-file - Module 'quickstart' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.599] [DEBUG] debug-file - Module 'quickstart' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.601] [DEBUG] debug-file - Module 'utils' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.603] [DEBUG] debug-file - Module 'utils' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.606] [DEBUG] debug-file - Module 'uicomponents' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.609] [DEBUG] debug-file - Module 'uicomponents' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.612] [DEBUG] debug-file - Module 'mine' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.615] [DEBUG] debug-file - Module 'mine' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.617] [DEBUG] debug-file - Module 'login' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.621] [DEBUG] debug-file - Module 'login' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.624] [DEBUG] debug-file - Module 'follows' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "name": "debug"
+} in this build.
+[2025-10-16T13:26:14.626] [DEBUG] debug-file - Module 'follows' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "name": "default"
+} in this build.
+[2025-10-16T13:26:14.631] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-10-16T13:26:14.636] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-10-16T13:26:14.636] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-10-16T13:26:14.635] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-10-16T13:26:14.636] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
