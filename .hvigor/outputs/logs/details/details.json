@@ -3,10 +3,7 @@
     "MODULES": [
       {
         "MODULE_NAME": "c21f969b5f03d33d43e04f8f136e7682",
-        "API_TYPE": "stageMode",
-        "INCREMENTAL_TASKS": {
-          "COMPILE_ARKTS": true
-        }
+        "API_TYPE": "stageMode"
       },
       {
         "MODULE_NAME": "508c75c8507a2ae5223dfd2faeb98122",
@@ -50,61 +47,59 @@
     "IS_HVIGORFILE_TYPE_CHECK": false,
     "TASK_TIME": {
       "c21f969b5f03d33d43e04f8f136e7682": {
-        "CreateModuleInfo": 2778100,
-        "PreCheckSyscap": 554600,
-        "GeneratePkgContextInfo": 15062900,
-        "ProcessIntegratedHsp": 3223500,
-        "SyscapTransform": 16775100,
-        "ProcessStartupConfig": 4860900,
-        "ConfigureCmake": 342900,
-        "BuildNativeWithCmake": 386300,
-        "BuildJS": 12821400,
-        "BuildNativeWithNinja": 3376000,
-        "CompileArkTS": 10550117000,
-        "PackageHap": 477984700,
-        "SignHap": 2793400,
-        "CollectDebugSymbol": 6668800,
-        "assembleHap": 270100
+        "CreateModuleInfo": 2016800,
+        "PreCheckSyscap": 548400,
+        "GeneratePkgContextInfo": 12385100,
+        "ProcessIntegratedHsp": 2907800,
+        "SyscapTransform": 2231600,
+        "ProcessStartupConfig": 3685700,
+        "ConfigureCmake": 769300,
+        "BuildNativeWithCmake": 317100,
+        "BuildJS": 5806300,
+        "BuildNativeWithNinja": 1958000,
+        "SignHap": 1794800,
+        "CollectDebugSymbol": 5306100,
+        "assembleHap": 273600
       },
       "2b3583e6e17721c54496bd04e57a0c15": {
-        "ConfigureCmake": 611000,
-        "BuildNativeWithCmake": 621800,
-        "BuildNativeWithNinja": 2768900
+        "ConfigureCmake": 605300,
+        "BuildNativeWithCmake": 446000,
+        "BuildNativeWithNinja": 2003300
       },
       "4b9fd96ea9bad44c52cdc82569434346": {
-        "ConfigureCmake": 454200,
-        "BuildNativeWithCmake": 375200,
-        "BuildNativeWithNinja": 1792100
+        "ConfigureCmake": 294200,
+        "BuildNativeWithCmake": 289400,
+        "BuildNativeWithNinja": 1616800
       },
       "d306c37e058603cfea275b98b3286af8": {
-        "ConfigureCmake": 365900,
-        "BuildNativeWithCmake": 361200,
-        "BuildNativeWithNinja": 2605800
+        "ConfigureCmake": 352400,
+        "BuildNativeWithCmake": 335800,
+        "BuildNativeWithNinja": 1598900
       },
       "d56b699830e77ba53855679cb1d252da": {
-        "ConfigureCmake": 396700,
-        "BuildNativeWithCmake": 317700,
-        "BuildNativeWithNinja": 2106000
+        "ConfigureCmake": 512500,
+        "BuildNativeWithCmake": 273600,
+        "BuildNativeWithNinja": 1852600
       },
       "508c75c8507a2ae5223dfd2faeb98122": {
-        "ConfigureCmake": 379800,
-        "BuildNativeWithCmake": 446600,
-        "BuildNativeWithNinja": 1763000
+        "ConfigureCmake": 530600,
+        "BuildNativeWithCmake": 289700,
+        "BuildNativeWithNinja": 1683100
       },
       "421b47ffd946ca083b65cd668c6b17e6": {
-        "ConfigureCmake": 321600,
-        "BuildNativeWithCmake": 376100,
-        "BuildNativeWithNinja": 1771700
+        "ConfigureCmake": 376400,
+        "BuildNativeWithCmake": 447500,
+        "BuildNativeWithNinja": 1723400
       },
       "1f921ae5a6816fd42a8d546be70f22cd": {
-        "ConfigureCmake": 404900,
-        "BuildNativeWithCmake": 361600,
-        "BuildNativeWithNinja": 1876000
+        "ConfigureCmake": 938700,
+        "BuildNativeWithCmake": 411200,
+        "BuildNativeWithNinja": 1796700
       },
       "918b81db5e91d031548b963c93845e5b": {
-        "ConfigureCmake": 368200,
-        "BuildNativeWithCmake": 386200,
-        "BuildNativeWithNinja": 2553600
+        "ConfigureCmake": 239700,
+        "BuildNativeWithCmake": 683900,
+        "BuildNativeWithNinja": 1128600
       }
     },
     "CONFIG_PROPERTIES": {
@@ -112,7 +107,7 @@
       "skipNativeIncremental": false,
       "hvigor_keepDependency": true
     },
-    "BUILD_ID": "202510152003453120",
-    "TOTAL_TIME": 17401122500
+    "TOTAL_TIME": 1248187900,
+    "BUILD_ID": "202510161309319180"
   }
 }
